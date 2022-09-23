@@ -6,11 +6,11 @@ class Pattern
 	    int r;
 	    Scanner sc=new Scanner(System.in);
 	    r=sc.nextInt();
-		for(int i=0;i<r;i++)
+		for(int i=1; i<=r; i++)
 		{
-		    for(int j=r;j>=1;j--)
+		    for(int j=1; j<=r; j++)
 		    {
-		        System.out.print(j+" ");
+		        System.out.print((char)(64+i)+" ");
 		    }
 		    System.out.println();
 		}
